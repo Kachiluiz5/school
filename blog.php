@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from world5.commonsupport.com/html2/kindergarten/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 10:53:27 GMT -->
+<!-- Mirrored from world5.commonsupport.com/html2/kindergarten/blog.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 10:53:27 GMT -->
 <head>
     <meta charset="UTF-8">
     <title>Nashville Kindergarten || Responsive HTML 5 Template</title>
@@ -20,8 +20,8 @@
     <div class="main-header stricky bubble">
         <div class="container">
             <div class="logo pull-left">
-                <a href="index.html">
-                    <img src="images/logo/1.png" alt="Awesome Image">
+                <a href="index.php">
+                    <img src="images/logo/4.png" alt="Awesome Image" style="width: 150px; height:100px;">
                 </a>
             </div>
 
@@ -58,7 +58,7 @@
                         </ul>
                     </div>
                     <div class="cart">
-                        <a href="cart-page.html"><span class="flaticon-shop"></span></a>
+                        <a href="cart-page.php"><span class="flaticon-shop"></span></a>
                     </div>
                 </div>
                 <nav class="mainmenu-area">
@@ -76,58 +76,58 @@
                         <div class="navbar-collapse collapse text-center">  
                             <ul>
                                 <li class="dropdown">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Home</a>
                                     <ul class="submenu">
                                         <li>
-                                            <a href="index.html">Home One</a>
+                                            <a href="index.php">Home One</a>
                                         </li>
-                                        <li><a href="index-2.html">Home Two</a></li>
-                                        <li><a href="index-3.html">Home three</a></li>
+                                        <li><a href="index-2.php">Home Two</a></li>
+                                        <li><a href="index-3.php">Home three</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="events.html">Events</a>
+                                    <a href="events.php">Events</a>
                                     <ul class="submenu">
-                                        <li><a href="events.html">Events</a></li>
-                                        <li><a href="events-detrails.html">Events details</a></li>
+                                        <li><a href="events.php">Events</a></li>
+                                        <li><a href="events-detrails.php">Events details</a></li>
                                     </ul>
                                 </li>
                                 <li class="current dropdown">
-                                    <a href="blog.html">pages</a>
+                                    <a href="blog.php">pages</a>
                                     <ul class="submenu">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="class.html">Class</a></li>
-                                        <li><a href="blog.html">Third level</a>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="class.php">Class</a></li>
+                                        <li><a href="blog.php">Third level</a>
                                             <ul class="submenu">
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="class.html">Class</a></li>
+                                                <li><a href="about.php">About</a></li>
+                                                <li><a href="class.php">Class</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="gallery.html">Gallery</a>
+                                    <a href="gallery.php">Gallery</a>
                                     <ul class="submenu">
-                                        <li><a href="gallery.html">Gallery v1</a></li>
-                                        <li><a href="gallery-2.html">Gallery v2</a></li>
+                                        <li><a href="gallery.php">Gallery v1</a></li>
+                                        <li><a href="gallery-2.php">Gallery v2</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="blog.html">News</a>
+                                    <a href="blog.php">News</a>
                                     <ul class="submenu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="single-blog.html">blog details</a></li>
+                                        <li><a href="blog.php">blog</a></li>
+                                        <li><a href="single-blog.php">blog details</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="shop.html">shop</a>
+                                    <a href="shop.php">shop</a>
                                     <ul class="submenu">
-                                        <li><a href="product-details.html">product details</a></li>
-                                        <li><a href="cart-page.html">cart page</a></li>
-                                        <li><a href="checkout-page.html">checkout page</a></li>
+                                        <li><a href="product-details.php">product details</a></li>
+                                        <li><a href="cart-page.php">cart page</a></li>
+                                        <li><a href="checkout-page.php">checkout page</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>  
                         </div> 
                     </div>
@@ -144,8 +144,8 @@
     <div class="container">
         <h2>blog</h2>
         <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="blog.html">blog</a></li>
+            <li><a href="index.php">home</a></li>
+            <li><a href="blog.php">blog</a></li>
         </ul>
     </div>
 </section>
@@ -409,13 +409,13 @@
                 <div class="pull-right">
                     <div class="menu">
                         <ul class="clearfix">
-                            <li><a href="index.html">home</a></li>
-                            <li><a href="event.html">event</a></li>
-                            <li><a href="blog.html">page</a></li>
-                            <li><a href="gallery.html">gallery</a></li>
-                            <li><a href="news.html">news</a></li>
-                            <li><a href="shop.html">shop</a></li>
-                            <li><a href="contact.html">contact</a></li>
+                            <li><a href="index.php">home</a></li>
+                            <li><a href="event.php">event</a></li>
+                            <li><a href="blog.php">page</a></li>
+                            <li><a href="gallery.php">gallery</a></li>
+                            <li><a href="news.php">news</a></li>
+                            <li><a href="shop.php">shop</a></li>
+                            <li><a href="contact.php">contact</a></li>
                         </ul>
                     </div>
                     <div class="copy-right">
@@ -489,5 +489,5 @@
 
 </body>
 
-<!-- Mirrored from world5.commonsupport.com/html2/kindergarten/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 10:53:27 GMT -->
+<!-- Mirrored from world5.commonsupport.com/html2/kindergarten/blog.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 10:53:27 GMT -->
 </html>

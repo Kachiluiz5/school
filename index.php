@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from world5.commonsupport.com/html2/kindergarten/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 10:53:25 GMT -->
 <head>
     <meta charset="UTF-8">
-    <title>Nashville Kindergarten || Responsive HTML 5 Template</title>
+    <title>Skudriod || Dynamic services</title>
 
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,18 +12,53 @@
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
-<body class="home-two">
- <div class="preloader"></div>
+<body class="home-one">
+<div class="preloader"></div>
 <header class="header clearfix">
-    <div class="main-header stricky style-2">
+    <div class="main-header stricky bubble">
         <div class="container">
             <div class="logo pull-left">
-                <a href="index.html">
-                    <img src="images/logo/1.png" alt="Awesome Image">
+                <a href="index.php">
+                    <img src="images/logo/4.png" alt="Awesome Image" style="width: 150px; height:100px;">
                 </a>
             </div>
 
             <div class="nav-outer">
+                <div class="header-top">
+                    <div class="contact">
+                        <span class="icon fa fa-phone"></span>Call :  +(234) 706 235 0036 
+                    </div>
+                    <div class="register">
+                        <a href="#">Register</a>
+                        <a href="#">Login </a>
+                    </div>
+
+                    <div id="polyglotLanguageSwitcher">
+                        <form action="#">
+                            <select id="polyglot-language-options">
+                                <option id="en" value="en" selected>Eng</option>
+                                <option id="fr" value="fr">Fre</option>
+                                <option id="de" value="de">Ger</option>
+                                <option id="it" value="it">Ita</option>
+                                <option id="es" value="es">Spa</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div id="top-search" class="top-search">
+                        <span class="flaticon-search search"></span>
+                        <ul class="search-box">
+                            <li>
+                                <form action="#">
+                                    <input type="text" placeholder="Search for something...">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart">
+                        <a href="cart-page.php"><span class="flaticon-shop"></span></a>
+                    </div>
+                </div>
                 <nav class="mainmenu-area">
                     <div class="navbar" role="navigation">
                         <div class="navbar-header">
@@ -41,57 +74,59 @@
                         <div class="navbar-collapse collapse text-center">  
                             <ul>
                                 <li class="current dropdown">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Home</a>
                                     <ul class="submenu">
                                         <li>
-                                            <a href="index.html">Home One</a>
+                                            <a href="index.php">Home One</a>
                                         </li>
-                                        <li><a href="index-2.html">Home Two</a></li>
-                                        <li><a href="index-3.html">Home three</a></li>
+                                        <li><a href="index-2.php">Home Two</a></li>
+                                        <li><a href="index-3.php">Home three</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="events.html">Events</a>
+                                    <a href="events.php">Events</a>
                                     <ul class="submenu">
-                                        <li><a href="events.html">Events</a></li>
-                                        <li><a href="events-detrails.html">Events details</a></li>
+                                        <li><a href="events.php">Events</a></li>
+                                        <li><a href="events-detrails.php">Events details</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="blog.html">pages</a>
+                                    <a href="blog.php">pages</a>
                                     <ul class="submenu">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="class.html">Class</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="class.php">Class</a></li>
+                                        <li><a href="blog.php">Third level</a>
+                                            <ul class="submenu">
+                                                <li><a href="about.php">About</a></li>
+                                                <li><a href="class.php">Class</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="gallery.html">Gallery</a>
+                                    <a href="gallery.php">Gallery</a>
                                     <ul class="submenu">
-                                        <li><a href="gallery.html">Gallery v1</a></li>
-                                        <li><a href="gallery-2.html">Gallery v2</a></li>
+                                        <li><a href="gallery.php">Gallery v1</a></li>
+                                        <li><a href="gallery-2.php">Gallery v2</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="blog.html">News</a>
+                                    <a href="blog.php">News</a>
                                     <ul class="submenu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="single-blog.html">blog details</a></li>
+                                        <li><a href="blog.php">blog</a></li>
+                                        <li><a href="single-blog.php">blog details</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="shop.html">shop</a>
+                                    <a href="shop.php">shop</a>
                                     <ul class="submenu">
-                                        <li><a href="product-details.html">product details</a></li>
-                                        <li><a href="cart-page.html">cart page</a></li>
-                                        <li><a href="checkout-page.html">checkout page</a></li>
+                                        <li><a href="product-details.php">product details</a></li>
+                                        <li><a href="cart-page.php">cart page</a></li>
+                                        <li><a href="checkout-page.php">checkout page</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                            <ul class="right-box">
-                                <li><a href="cart.html"><span class="phone-only">Cart(3)</span><i class="flaticon-shop shop"></i><span class="count">3</span></a>
-                                </li>
-                            </ul>
+                                <li><a href="contact.php">Contact</a></li>
+                            </ul>  
                         </div> 
                     </div>
                 </nav>
@@ -107,42 +142,8 @@
     <h2 class="hidden">rev slider</h2>
     <div id="slider1" class="rev_slider"  data-version="5.0">
         <ul>
-            <li class="gradient-overlay overly" data-transition="slotzoom-horizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                <img src="images/main-slider/2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                
-                
-                <div class="tp-caption lfl sfb tp-resizeme start"
-                data-x="left" data-hoffset="0"
-                data-y="center" data-voffset="0"
-                data-speed="1500"
-                data-start="1000"
-                data-easing="easeOutExpo"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.01"
-                data-endelementdelay="0.3"
-                data-endspeed="1200"
-                data-endeasing="Power4.easeIn"><img src="images/main-slider/5.png" alt=""></div>
-                
-                <div class="tp-caption lft sfb tp-resizeme start"
-                data-x="right" data-hoffset="0"
-                data-y="center" data-voffset="0"
-                data-speed="1500"
-                data-start="1500"
-                data-easing="easeOutExpo"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.01"
-                data-endelementdelay="0.3"
-                data-endspeed="1200"
-                data-endeasing="Power4.easeIn"><div class="outer-box">
-                    <p>Nashville </p>
-                    <h3>In our School you can <br> learn  how to explore new <br> Things</h3>    
-                </div></div>
-                
-            </li>
-            <li class="gradient-overlay" data-transition="slotzoom-horizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                <img src="images/main-slider/1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+            <!-- <li class="gradient-overlay" data-transition="slotzoom-horizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                <img src="images/main-slider/g.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
                 
                 
                 <div class="tp-caption lfl sfb tp-resizeme start"
@@ -157,6 +158,8 @@
                 data-endelementdelay="0.3"
                 data-endspeed="1200"
                 data-endeasing="Power4.easeIn"><img src="images/main-slider/1.png" alt=""></div>
+
+
                 
                 <div class="tp-caption lft sfb tp-resizeme start"
                 data-x="center" data-hoffset="50"
@@ -196,7 +199,81 @@
                 data-endelementdelay="0.3"
                 data-endspeed="1200"
                 data-endeasing="Power4.easeIn"><img src="images/main-slider/3.png" alt=""></div>
-            </li>  
+            </li> -->
+
+
+
+            <li class="gradient-overlay overly" data-transition="slotzoom-horizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                <img src="images/main-slider/2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                
+                
+                <div class="tp-caption lfl sfb tp-resizeme start"
+                data-x="left" data-hoffset="0"
+                data-y="center" data-voffset="0"
+                data-speed="1500"
+                data-start="1000"
+                data-easing="easeOutExpo"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.01"
+                data-endelementdelay="0.3"
+                data-endspeed="1200"
+                data-endeasing="Power4.easeIn"><img src="images/main-slider/66.png" alt=""></div>
+                
+                <div class="tp-caption lft sfb tp-resizeme start"
+                data-x="right" data-hoffset="0"
+                data-y="center" data-voffset="0"
+                data-speed="1500"
+                data-start="1500"
+                data-easing="easeOutExpo"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.01"
+                data-endelementdelay="0.3"
+                data-endspeed="1200"
+                data-endeasing="Power4.easeIn"><div class="outer-box">
+                    <p>Skudriod </p>
+                    <h3>Help Students Learn STEM <br> As Well As Help Teachers Manage Their <br> Class Activities</h3>    
+                </div></div>
+                
+            </li>
+
+            <li class="gradient-overlay overly" data-transition="slotzoom-horizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                <img src="images/main-slider/2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                
+                
+                <div class="tp-caption lfl sfb tp-resizeme start"
+                data-x="left" data-hoffset="0"
+                data-y="center" data-voffset="0"
+                data-speed="1500"
+                data-start="1000"
+                data-easing="easeOutExpo"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.01"
+                data-endelementdelay="0.3"
+                data-endspeed="1200"
+                data-endeasing="Power4.easeIn"><img src="images/main-slider/5.png" alt=""></div>
+                
+                <div class="tp-caption lft sfb tp-resizeme start"
+                data-x="right" data-hoffset="0"
+                data-y="center" data-voffset="0"
+                data-speed="1500"
+                data-start="1500"
+                data-easing="easeOutExpo"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.01"
+                data-endelementdelay="0.3"
+                data-endspeed="1200"
+                data-endeasing="Power4.easeIn"><div class="outer-box">
+                    <p>Skudriod </p>
+                    <h3>Help Students Learn STEM <br> As Well As Help Teachers Manage Their <br> Class Activities</h3>    
+                </div></div>
+                
+            </li>
+
+
             <li class="gradient-overlay" data-transition="slotzoom-horizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/3.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
                 <img src="images/main-slider/3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
                 
@@ -225,7 +302,7 @@
                 data-elementdelay="0.01"
                 data-endelementdelay="0.3"
                 data-endspeed="1200"
-                data-endeasing="Power4.easeIn"><h2>Our goal is provide a complete <br>  nurturing environments</h2></div>
+                data-endeasing="Power4.easeIn"><h2>Our goal is to Bring out <br> the best of you</h2></div>
 
                 <div class="tp-caption lfr sfr tp-resizeme start"
                 data-x="left" data-hoffset="600"
@@ -238,7 +315,7 @@
                 data-elementdelay="0.01"
                 data-endelementdelay="0.3"
                 data-endspeed="1200"
-                data-endeasing="Power4.easeIn"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br>doloremque laudantium, totam rem aperiam.</p></div>
+                data-endeasing="Power4.easeIn"><p>We Developed A Special Curriculum Called C-STEAM <br> We Use Deep And Smart Technologies For Solve And Bring Out The Best.</p></div>
 
                 <div class="tp-caption lfb sfb tp-resizeme start"
                 data-x="left" data-hoffset="600"
@@ -251,58 +328,135 @@
                 data-elementdelay="0.01"
                 data-endelementdelay="0.3"
                 data-endspeed="1200"
-                data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one">Get Involved</a></div>
+                data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one">Get Started</a></div>
 
-            </li>     
+            </li> 
+
+                
         </ul>
     </div>
 </section>
 
 
 
-<section class="about-2">
+<section class="about">
     <div class="container">
                 
         <div class="row">
-            <div class="column col-md-4 col-sm-6">
+            <div class="single-column col-md-6 col-sm-12">
                 <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                    <div class="item center">
-                        <div class="icon"><span class="icon-school"></span></div>
-                        <div class="content">
-                            <h4><a href="#">Active Learning</a></h4>
-                            <p>Your child is growing up fast and ready for a little more independence, our pre school club will be a perfect introduction.</p>
-                            <a href="#" class="readmore">Read more</a>
+                    <div class="post-content">
+                        <div class="section-title">
+                            <h2>Welcome TO <span>Skudriood</span> </h2>
+                        </div>
+                        <div class="text">
+                            <p>We Help Students Learn STEM As Well As Help
+                                Teachers Manage Their Class Activities Seamlessly
+                                Issues A Business May Face.</p>
+                        </div>
+                        <ul class="list">
+                            <li>Learn and understand Robotics</li>
+                            <li>Explore Virtual Reality</li>
+                            <li>Smart Edu-devices and Smart class room</li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="read-more">Get Involved</a>
+                            <a href="#" class="read-more">Join Now</a>
                         </div>
                     </div>
                 </div>    
+                    
+
             </div>
-            <div class="column col-md-4 col-sm-6">
-                <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                    <div class="item center">
-                        <div class="icon"><span class="icon-paint-1"></span></div>
-                        <div class="content">
-                            <h4><a href="#">Pre-School</a></h4>
-                            <p>Your child is growing up fast and ready for a little more independence, our pre school club will be a perfect introduction.</p>
-                            <a href="#" class="readmore">Read more</a>
-                        </div>
-                    </div>
-                </div>    
+            <div class="single-column col-md-6 col-sm-12">  
+                <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <figure class="img-box">
+                        <a href="#"><img src="images/resource/23.jpg" alt=""></a>
+                    </figure>
+                </div> 
             </div>
-            <div class="column col-md-4 col-sm-6">
-                <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                    <div class="item center">
-                        <div class="icon"><span class="icon-blocks"></span></div>
-                        <div class="content">
-                            <h4><a href="#">Language Lessons</a></h4>
-                            <p>Your child is growing up fast and ready for a little more independence, our pre school club will be a perfect introduction.</p>
-                            <a href="#" class="readmore">Read more</a>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-            
         </div>
-    </div> 
+    </div>           
+</section>
+
+
+<section class="call-out">
+    <div class="container">
+        <div class="row">
+
+            <div class="column col-md-9 col-sm-12 col-xs-12">
+                <div class="text-left clearfix">
+                    <h2>Join Now!</h2>
+                    <p>Nothing is more important than your child’s well-being. Join our seminars <br>and training and learn how to keep it.</p>
+                </div>
+                    
+            </div>
+
+            <div class="column col-md-3 col-sm-12 col-xs-12">
+                <div class="text-right padd-top-20">
+                    <a href="#" class="theme-btn btn-style-one">Get Involved</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feature">
+    <div class="container">
+        <div class="section-title center pb-60">
+            <h2>Our<span>Feature</span> </h2>
+        </div>
+        <div class="row">
+
+            <div class="column col-md-4 col-sm-12">
+                <div class="item right">
+                    <div class="icon"><span class="icon-food"></span></div>
+                    <h4><a href="#">Robotics</a></h4>
+                    <p>Lorem ipsum dolor sit amet cotetur adipisicing elit mod tempor incididuntut labore</p>
+                </div> 
+                <div class="item right">
+                    <div class="icon"><span class="icon-blocks"></span></div>
+                    <h4><a href="#">Virtual Reality</a></h4>
+                    <p>Lorem ipsum dolor sit amet cotetur adipisicing elit mod tempor incididuntut labore</p>
+                </div> 
+                <div class="item right">
+                    <div class="icon"><span class="icon-school"></span></div>
+                    <h4><a href="#">STEM</a></h4>
+                    <p>Lorem ipsum dolor sit amet cotetur adipisicing elit mod tempor incididuntut labore</p>
+                </div> 
+
+            </div>
+
+            <div class="column col-md-4 col-sm-12">
+                <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <figure class="img-box">
+                        <a href="#"><img src="images/resource/2.png" alt=""></a>
+                    </figure>
+                </div>
+                            
+            </div>
+
+           <div class="column col-md-4 col-sm-12">
+                <div class="item left">
+                    <div class="icon"><span class="icon-library"></span></div>
+                    <h4><a href="#">Engineering</a></h4>
+                    <p>Lorem ipsum dolor sit amet cotetur adipisicing elit mod tempor incididuntut labore</p>
+                </div> 
+                <div class="item left">
+                    <div class="icon"><span class="icon-paint-1"></span></div>
+                    <h4><a href="#">Smart Edu-devices</a></h4>
+                    <p>Lorem ipsum dolor sit amet cotetur adipisicing elit mod tempor incididuntut labore</p>
+                </div> 
+                <div class="item left">
+                    <div class="icon"><span class="icon-gestures"></span></div>
+                    <h4><a href="#">Smart class room</a></h4>
+                    <p>Lorem ipsum dolor sit amet cotetur adipisicing elit mod tempor incididuntut labore</p>
+                </div> 
+                   
+            </div>
+
+        </div>
+    </div>
     <div class="see-more">
         <div class="container">
             <div class="text-center">
@@ -312,8 +466,9 @@
                 </div>
             </div>
         </div>
-    </div>          
+    </div>
 </section>
+
 
 <section class="cource">
     <div class="container">
@@ -416,219 +571,270 @@
     </div>
 </section>
 
-<section class="event">
+<section class="team">
     <div class="container">
-
-        <div class="event-carousel">
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/7.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-1">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/8.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-2">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                            
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.7s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/9.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-3">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/7.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-1">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/8.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-2">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                            
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.7s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/9.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-3">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/7.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-1">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/8.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-2">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                            
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.7s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="img-holder">
-                    <figure><a href="#"><img src="images/resource/9.jpg" alt="Awesome Image"/></a></figure>
-                    <div class="content bg-color-3">
-                        <div class="inner-box">
-                            <div class="btn-box">
-                                <div class="count">25</div>
-                                <div class="month">July</div>
-                            </div>
-                            <h4><a href="#">Dancing for a happy life</a></h4>
-                            <p><span class="fa fa-clock-o"></span> 8.00 am to 12.00 pm</p>
-                            <p><span class="fa fa-map-marker"></span> NashvilleKids Centre , Berlin Germany</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
-
+        <div class="section-title center pb-60">
+            <h2>our team <span>member</span></h2>
         </div>
+
+        <div class="team-list">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <div class="item">
+                        <div class="img-holder">
+                            <figure><a href="#"><img src="images/team/1.jpg" alt="Awesome Image"/></a></figure>
+                            <div class="content">
+                                <h2><a href="#">Daryl Dixon</a></h2>
+                                <p>head teacher</p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="overlay">
+                            <div class="inner">
+                                <div class="content">
+                                    <h2><a href="#">Daryl Dixon</a></h2>
+                                    <p>head teacher</p>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <div class="item">
+                        <div class="img-holder">
+                            <figure><a href="#"><img src="images/team/2.jpg" alt="Awesome Image"/></a></figure>
+                            <div class="content">
+                                <h2><a href="#">Jon Snow</a></h2>
+                                <p>head teacher</p>
+
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="inner">
+                                <div class="content">
+                                    <h2><a href="#">Jon Snow</a></h2>
+                                    <p>head teacher</p>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.7s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <div class="item">
+                        <div class="img-holder">
+                            <figure><a href="#"><img src="images/team/3.jpg" alt="Awesome Image"/></a></figure>
+                            <div class="content">
+                                <h2><a href="#">Peter Parker</a></h2>
+                                <p>head teacher</p>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="inner">
+                                <div class="content">
+                                    <h2><a href="#">Peter Parker</a></h2>
+                                    <p>head teacher</p>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <div class="item">
+                        <div class="img-holder">
+                            <figure><a href="#"><img src="images/team/4.jpg" alt="Awesome Image"/></a></figure>
+                            <div class="content">
+                                <h2><a href="#">Luck Walker</a></h2>
+                                <p>head teacher</p>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="inner"> 
+                                <div class="content">
+                                    <h2><a href="#">Luck Walker</a></h2>
+                                    <p>head teacher</p>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+            
 
     </div>
 </section>
 
 
-<section class="about style-2">
+<section class="two-column">
     <div class="container">
-                
         <div class="row">
-            <div class="single-column col-md-6 col-sm-12">
-                <div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                    <div class="post-content">
-                        <div class="section-title">
-                            <h2>Welcome TO <span>Nashville</span> </h2>
-                        </div>
-                        <div class="text">
-                            <p>We're a childcare centre with an engaging curriculum backed by <span>qualified, experienced</span> and <span>passionate teachers!</span> By learning about those of differing social, cultural and perspectives, young people </p>
-                        </div>
-                        <ul class="list">
-                            <li>Educational field trips and school presentations</li>
-                            <li>Comprehensive reporting on individual achievement</li>
-                            <li>Individual attention in a small-class setting</li>
-                        </ul>
-                        <div class="link">
-                            <a href="#" class="read-more">Get Involved</a>
-                            <a href="#" class="read-more">Join Now</a>
+            <div class="col-md-8 col-sm-12 tab-column">
+                <div class="section-title">
+                    <h2>Our Child <span>Care Activities</span></h2>
+                </div>
+                <div class="outer-box">
+                    <ul class="tab-list" role="tablist">
+                        <li class="item active hvr-bubble-bottom" data-tab-name="Education">
+                            <a href="#Education" aria-controls="Education" role="tab" data-toggle="tab" class="clearfix">
+                                Education
+                            </a>
+                        </li>
+                        <li class="item hvr-bubble-bottom" data-tab-name="Activities">
+                            <a href="#Activities" aria-controls="Activities" role="tab" data-toggle="tab" class="clearfix">
+                                Activities
+                            </a>
+                        </li>
+                        <li class="item hvr-bubble-bottom"  data-tab-name="Painting">
+                            <a href="#Painting" aria-controls="Painting" role="tab" data-toggle="tab" class="clearfix">
+                                Painting
+                            </a>
+                        </li>
+                        <li class="item hvr-bubble-bottom"  data-tab-name="Games">
+                            <a href="#Games" aria-controls="Games" role="tab" data-toggle="tab" class="clearfix">
+                                Games
+                            </a>
+                      
+
+
+                    </ul>
+                </div>
+                
+                <div class="content-column tab-content">
+                    <div class="inner-box tab-pane fade in active " id="Education">
+                        <div class="content">
+                            <h2>Let the Learning Begin </h2>
+                            <p>We are group of teachers who really love childrens and enjoy every moment of teaching and playing with our students.Our teachers graduated from differnt Universities with as different subjects but its all included in Education Major. Therefore, we are very confident with our knowledge and teaching skills.</p>
+                            <a href="#" class="link">Read More</a>
                         </div>
                     </div>
-                </div>    
-                    
+                    <div class="inner-box tab-pane fade " id="Activities">
+                        <div class="content">
+                            <h2>Let the Learning Begin </h2>
+                            <p>We are group of teachers who really love childrens and enjoy every moment of teaching and playing with our students.Our teachers graduated from differnt Universities with as different subjects but its all included in Education Major. Therefore, we are very confident with our knowledge and teaching skills.</p>
+                            <a href="#" class="link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="inner-box tab-pane fade " id="Painting">
+                        <div class="content">
+                            <h2>Let the Learning Begin </h2>
+                            <p>We are group of teachers who really love childrens and enjoy every moment of teaching and playing with our students.Our teachers graduated from differnt Universities with as different subjects but its all included in Education Major. Therefore, we are very confident with our knowledge and teaching skills.</p>
+                            <a href="#" class="link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="inner-box tab-pane fade " id="Games">
+                        <div class="content">
+                            <h2>Let the Learning Begin </h2>
+                            <p>We are group of teachers who really love childrens and enjoy every moment of teaching and playing with our students.Our teachers graduated from differnt Universities with as different subjects but its all included in Education Major. Therefore, we are very confident with our knowledge and teaching skills.</p>
+                            <a href="#" class="link">Read More</a>
+                        </div>
+                    </div>
 
+                </div>
             </div>
-            <div class="single-column col-md-6 col-sm-12">  
-                <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
-                    <figure class="img-box">
-                        <a href="#"><img src="images/resource/2.png" alt=""></a>
-                    </figure>
-                </div> 
+            <div class="col-md-4 col-sm-12 testimonial">
+                <div class="section-title">
+                    <h2>What The <span>Parents Say</span></h2>
+                </div>
+                <div class="testimonial-slide">
+
+                    <div class="item center">
+                        <img src="images/team/t1.jpg" alt="">
+                        <div class="img-ifo">
+                            <div class="text">
+                                <p>Our teachers graduated from differnt Universities with as different subjects but its all included in Education M</p>
+                            </div>
+                            <div class="rating">
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                            </div>
+                            <div class="link">
+                                <a href="#" class="btn-style-one">Ellina Gilbert</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item center">
+                        <img src="images/team/t1.jpg" alt="">
+                        <div class="img-ifo">
+                            <div class="text">
+                                <p>Our teachers graduated from differnt Universities with as different subjects but its all included in Education M</p>
+                            </div>
+                            <div class="rating">
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                            </div>
+                            <div class="link">
+                                <a href="#" class="btn-style-one">Ellina Gilbert</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item center">
+                        <img src="images/team/t1.jpg" alt="">
+                        <div class="img-ifo">
+                            <div class="text">
+                                <p>Our teachers graduated from differnt Universities with as different subjects but its all included in Education M</p>
+                            </div>
+                            <div class="rating">
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                                <span class="star fa fa-star-o"></span>
+                            </div>
+                            <div class="link">
+                                <a href="#" class="btn-style-one">Ellina Gilbert</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
+
         </div>
-    </div>           
+            
+
+                
+        
+    </div>
 </section>
 
-<section class="gallery-section gallery-three-column style-2">
+<section class="gallery-section gallery-three-column">
     <div class="container">
     <div class="section-title">
         <h2>Our <span>Gallery</span></h2>
@@ -707,9 +913,75 @@
                         </div>
                     </div>
                 </div>
-            
+                
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/5.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/6.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/7.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/8.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
-            <!--Filter-->
             <div class="row">
                 
                 <!--Default Portfolio Item-->
@@ -780,9 +1052,75 @@
                         </div>
                     </div>
                 </div>
-            
-            </div>
+                
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/5.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/6.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/7.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Default Portfolio Item-->
+                <div class="col-md-3 col-sm-6 col-xs-12 default-portfolio-item">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/gallery/8.jpg" alt=""></figure>
+                        <!--Overlay Box-->
+                        <div class="overlay-box">
+                            <div class="overlay-inner">
+                                <div class="content">
+                                    <h3><a href="#gallery-popup" class=" has-gallery-popup" title="Open Gallery Popup">Opening Remark</a></h3>
+                                    <a href="#gallery-popup" class="image-link has-gallery-popup" title="Open Gallery Popup"><span class="icon-magnifier"></span></a>
+                                    <a href="#" class="image-link2"><span class="icon-link-1"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                
+            </div>
             
         </div>
         
@@ -800,473 +1138,152 @@
 </section>
 
 
-<section class="classroom">
-    <div class="tab-links">
-        <div class="container">
-            <div class="section-title center sep-2">
-                <h2>Our Rooms & Classes</h2>
-            </div>
-            <ul class="tab-list">
-                <li><a href="#tab-A" class="tab-btn active"><div class="img-box"><img src="images/resource/6.png" alt=""><div class="overlay"><div class="inner-box"><h2>Daisy Room</h2></div></div></div></a></li>
-                <li><a href="#tab-B" class="tab-btn"><div class="img-box"><img src="images/resource/7.png" alt=""><div class="overlay"><div class="inner-box"><h2>Daisy Room</h2></div></div></div></a></li>
-                <li><a href="#tab-C" class="tab-btn"><div class="img-box"><img src="images/resource/8.png" alt=""><div class="overlay"><div class="inner-box"><h2>Daisy Room</h2></div></div></div></a></li>
-                <li><a href="#tab-D" class="tab-btn"><div class="img-box"><img src="images/resource/9.png" alt=""><div class="overlay"><div class="inner-box"><h2>Daisy Room</h2></div></div></div></a></li>
-                <li><a href="#tab-E" class="tab-btn"><div class="img-box"><img src="images/resource/10.png" alt=""><div class="overlay"><div class="inner-box"><h2>Daisy Room</h2></div></div></div></a></li>
-            </ul>
+<section class="shop">
+    <div class="container">
+        <div class="section-title center pb-60">
+            <h2>Our Latest <span>Products</span></h2>
         </div>
+
+
+        <div class="team-list row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <figure class="img-holder">
+                        <a href="#"><img src="images/product/1.jpg" alt="Awesome Image"/></a>
+                    </figure>
+                    <div class="content">
+                        <h2><a href="#">Jigsaw box alphabets</a></h2>
+                        <p>$ 85</p>
+                        <div class="cart">
+                            <a href="cart-page.php"><span class="flaticon-shop"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <figure class="img-holder">
+                        <a href="#"><img src="images/product/2.jpg" alt="Awesome Image"/></a>
+                    </figure>
+                    <div class="content">
+                        <h2><a href="#">Jigsaw box alphabets</a></h2>
+                        <p>$ 85</p>
+                        <div class="cart">
+                            <a href="cart-page.php"><span class="flaticon-shop"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <figure class="img-holder">
+                        <a href="#"><img src="images/product/3.jpg" alt="Awesome Image"/></a>
+                    </figure>
+                    <div class="content">
+                        <h2><a href="#">Jigsaw box alphabets</a></h2>
+                        <p>$ 85</p>
+                        <div class="cart">
+                            <a href="cart-page.php"><span class="flaticon-shop"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <figure class="img-holder">
+                        <a href="#"><img src="images/product/4.jpg" alt="Awesome Image"/></a>
+                    </figure>
+                    <div class="content">
+                        <h2><a href="#">Jigsaw box alphabets</a></h2>
+                        <p>$ 85</p>
+                        <div class="cart">
+                            <a href="cart-page.php"><span class="flaticon-shop"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
-                    <!--tab Content-->
-    <div class="tab-content">
+</section>
+
+
+<!-- <section class="map-section">
+    <div class="google-map" id="contact-google-map" data-map-lat="37.668705" data-map-lng="-121.882048" data-map-title="Awesome Place" data-map-zoom="12">
         
+    </div>
+</section> -->
+
+<section class="footer">
+    <div class="footer-upper">
         <div class="container">
-            <!--tab Details / Collapsed-->
-            <div class="roomitem collapsed" id="tab-A">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/11.png" alt="">
-                            <div class="content bg-color-1">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/12.png" alt="">
-                            <div class="content bg-color-2">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>  
-            <!--tab Details-->
-            <div class="roomitem" id="tab-B">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/11.png" alt="">
-                            <div class="content bg-color-1">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/12.png" alt="">
-                            <div class="content bg-color-2">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <!--tab Details-->
-            <div class="roomitem" id="tab-C">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/11.png" alt="">
-                            <div class="content bg-color-1">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/12.png" alt="">
-                            <div class="content bg-color-2">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <!--tab Details-->
-            <div class="roomitem" id="tab-D">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/11.png" alt="">
-                            <div class="content bg-color-1">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/12.png" alt="">
-                            <div class="content bg-color-2">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div> 
-            <!--tab Details-->
-            <div class="roomitem" id="tab-E">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/11.png" alt="">
-                            <div class="content bg-color-1">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <img src="images/resource/12.png" alt="">
-                            <div class="content bg-color-2">
-                                <div class="item left">
-                                    <h3>Little Lambs</h3>
-                                    <p>Class name</p>
-                                </div>
-                                <div class="item center">
-                                    <div class="date">12-24 </div>
-                                    <p>Month olds </p>
-                                </div>
-                                <div class="item center">
-                                    <div class="count">12 </div>
-                                    <p>Class Size</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div> 
-        </div>
-
-    </div>
-    <div class="see-more style-3">
-        <div class="container">
-            <div class="clearfix">
-                <div class="link pull-left">
-                    <a href="#" class="link-btn">View all our Class </a>
-                </div>
-                <div class="link pull-right">
-                    <a href="#" class="link-btn">Contact</a>
-                </div>
-            </div>
-            <p class="center">Your children’s education and wellfare are our main priorities</p>
-        </div>
-    </div>
-
-</section>
-
-
-
-<section class="sponser-section">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Our <span>Partner</span></h2>
-            <p>It’s an Amazine event for All over the World Design Community</p>
-        </div>
-        <ul class="sponsors-slider">
-            <li><a href="#"><img src="images/sponsors/1.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/2.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/3.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/4.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/5.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/6.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/1.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/2.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/3.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/4.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/5.png" alt=""></a></li>
-            <li><a href="#"><img src="images/sponsors/6.png" alt=""></a></li>
-        </ul>
-    </div>
-</section>
-
-<section class="blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="img-box-s1">
-                    <div class="img-holder">
-                        <img src="images/blog/1.jpg" alt="">
-                    </div>
-                    <div class="overlay">
-                        <div class="date">20 August 2016 </div>
-                        <h3><a href="#">Drawing at the park</a></h3>
-                        <div class="author">
-                            <img src="images/blog/a.png" alt="">
-                            <span>Luck Walker</span>
-                        </div>
-                        <div class="comment">10 Comments</div>
-                    </div>
-                </div>
-                <div class="quot">
-                    <div class="icon center"><span class="icon-link"></span></div>
-                    <h3>Your child is growing up fast and ready for a more independence</h3>
-                    <h4><a href="#">- Daryl Dixon</a></h4>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="quot">
-                    <div class="icon center"><span class="icon-link"></span></div>
-                    <h3>Your child is growing up fast and ready for a more independence</h3>
-                    <h4><a href="#">- Daryl Dixon  </a></h4>
-                </div>
-                <div class="img-box-s2">
-                    <div class="img-holder">
-                        <img src="images/blog/2.jpg" alt="">
-                    </div>
-                    <div class="outer-box">
-                        <div class="content">
-                            <div class="date">20 August 2016 </div>
-                            <h3><a href="#">Drawing at the park</a></h3>
-                            <div class="text">
-                                <p>Your child is growing up fast and ready for a little more independence, our pre school club will be a perfect introduction.</p>
-                            </div>
-                        </div>
-                        <div class="comment-area">
-                            <div class="comment pull-left">10 Comments</div>
-                            <div class="author pull-right">
-                                <img src="images/blog/a.png" alt="">
-                                <span>Luck Walker</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="img-box-s2 color-style2">
-                    <div class="img-holder">
-                        <img src="images/blog/3.jpg" alt="">
-                    </div>
-                    <div class="outer-box">
-                        <div class="content">
-                            <div class="date">20 August 2016 </div>
-                            <h3><a href="#">Drawing at the park</a></h3>
-                            <div class="text">
-                                <p>Your child is growing up fast and ready for a little more independence, our pre school club will be a perfect introduction.</p>
-                            </div>
-                        </div>
-                        <div class="comment-area">
-                            <div class="comment pull-left">10 Comments</div>
-                            <div class="author pull-right">
-                                <img src="images/blog/a.png" alt="">
-                                <span>Luck Walker</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-box-s1">
-                    <div class="img-holder">
-                        <img src="images/blog/4.jpg" alt="">
-                    </div>
-                    <div class="overlay">
-                        <div class="date">20 August 2016 </div>
-                        <h3><a href="#">Drawing at the park</a></h3>
-                        <div class="author">
-                            <img src="images/blog/a.png" alt="">
-                            <span>Luck Walker</span>
-                        </div>
-                        <div class="comment">10 Comments</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="readmore center"><a class="link" href="#">Read More Blog</a></div>
-    </div>
-</section>
-
-<section class="footer-style-2">
-    <div class="container">
-        <div class="footer-upper">
             <div class="row">
-                <div class="col-lg-3 col-sm-6 col-xs-12 column">
-                    <div class="footer-widget-about">
-                        <div class="column-title">
-                            <h2>About Nashville</h2>
+                <div class="col-md-4 col-sm-6 col-xs-12 column">
+                    <div class="item center">
+                        <div class="icon">
+                            <span class="icon-location"></span>
                         </div>
                         <div class="content">
-                            <p>You bet your life Speed Racer he will see it through gonna do it. </p>
-                            <ul>
-                                <li><span class="icon-school"></span><a href="#">17 Downtown St, Victoria, Australia.</a></li>
-                                <li><span class="icon-interface"></span><a href="#">Support@Ourdomain.Com</a></li>
-                                <li><span class="icon-technology-2"></span><a href="#">+(01) 123 456 7896  (Or) <br> +(01) 123 456 7899</a></li>
-                            </ul>
+                            <h4><a href="#">Address</a></h4>
+                            <p>33 New Nkisi GRA Onitsha, Anambra</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="news-column">
-                        <div class="column-title">
-                            <h2>Latest News</h2>
+                <div class="col-md-4 col-sm-6 col-xs-12 column">
+                    <div class="item center">
+                        <div class="icon">
+                            <span class="icon-technology-2"></span>
                         </div>
+                        <div class="content">
+                            <h4><a href="#">Phone number</a></h4>
+                            <p>+234 706 235 0036</p>
                             
-                        
-                        <!--News Post-->
-                        <div class="news-post">
-                            <div class="news-content"><figure class="image-thumb"><img src="images/resource/5.jpg" alt=""></figure><a href="#">Fightin' the system like true modern</a></div>
-                            <div class="time">July 25, 2015</div>
                         </div>
-                        
-                        <!--News Post-->
-                        <div class="news-post">
-                            <div class="news-content"><figure class="image-thumb"><img src="images/resource/6.jpg" alt=""></figure><a href="#">Well we're movin' on up to the east side</a></div>
-                            <div class="time">July 25, 2015</div>
-                        </div>
-                        
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
-                    <div class="links-column">
-                        <div class="column-title">
-                            <h2>Usefull Links</h2>
+                <div class="col-md-4 col-sm-6 col-xs-12 column">
+                    <div class="item center">
+                        <div class="icon">
+                            <span class="icon-interface"></span>
                         </div>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Latest News</a></li>
-                            <li><a href="#">Our Staffs</a></li>
-                            <li><a href="#">Admissions</a></li>
-                            <li><a href="#">Contact us</a></li>
+                        <div class="content">
+                            <h4><a href="#">Email id</a></h4>
+                            <p>skudroid@consultant.com </p>
+                            <!-- <p>YourAddress@info.com</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-bottom-bg">
+            <div class="container">
+                <div class="pull-left">
+                    <figure><a href="#"><img src="images/logo/4.png" alt="Awesome Image" style="width: 150px; height:100px;"></a></figure>
+                </div>
+                <div class="pull-right">
+                    <div class="menu">
+                        <ul class="clearfix">
+                            <li><a href="index.php">home</a></li>
+                            <li><a href="event.php">event</a></li>
+                            <li><a href="blog.php">page</a></li>
+                            <li><a href="gallery.php">gallery</a></li>
+                            <li><a href="news.php">news</a></li>
+                            <li><a href="shop.php">shop</a></li>
+                            <li><a href="contact.php">contact</a></li>
                         </ul>
-
+                    </div>
+                    <div class="copy-right">
+                        Copyright © <a href="mailto:support@templatepath.com"><span>Templatepath</span></a> 2016
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12 column">
-                    <div class="instagram">
-                        <div class="column-title">
-                            <h2>Event Gallery</h2>
-                        </div>
-                        <figure class="img-box"><a href="#"><img src="images/gallery/9.jpg" alt=""></a></figure>
-                        <figure class="img-box"><a href="#"><img src="images/gallery/10.jpg" alt=""></a></figure>
-                        <figure class="img-box"><a href="#"><img src="images/gallery/11.jpg" alt=""></a></figure>
-                        <figure class="img-box"><a href="#"><img src="images/gallery/12.jpg" alt=""></a></figure>
-                        <figure class="img-box"><a href="#"><img src="images/gallery/13.jpg" alt=""></a></figure>
-                        <figure class="img-box"><a href="#"><img src="images/gallery/14.jpg" alt=""></a></figure>
-                    </div>
-                </div>
-                
             </div>
         </div>
-        <div class="coppy-right clearfix">
-            <div class="pull-left">
-                Copy Rights © 2016 All Rights Reserved.
-            </div>
-            <div class="pull-right">
-                <p>Follow On:</p>
-                <ul class="social">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-
-        </div>
+        
     </div>
 </section>
 
@@ -1408,5 +1425,5 @@
 
 </body>
 
-<!-- Mirrored from world5.commonsupport.com/html2/kindergarten/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 10:53:26 GMT -->
+<!-- Mirrored from world5.commonsupport.com/html2/kindergarten/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 10:53:24 GMT -->
 </html>

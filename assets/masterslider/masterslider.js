@@ -3425,9 +3425,9 @@ window.averta = {};
 		
 		this._orgAlign = this.align = this.$element.data('align') !== undefined ? this.$element.data('align') : 'top';
 		
-		this.data = this.$element.html();
+		this.data = this.$element.php();
 		
-		this.$element.html('').on('mouseenter' , function(){that._showTT();}).on('mouseleave',function(){that._hideTT();});
+		this.$element.php('').on('mouseenter' , function(){that._showTT();}).on('mouseleave',function(){that._hideTT();});
 		
 		this.point = $('<div><div class="ms-point-center"></div><div class="ms-point-border"></div></div>')
 					.addClass('ms-tooltip-point')
@@ -3460,7 +3460,7 @@ window.averta = {};
 		
 		this.ttcont = $('<div></div>')
 					  .addClass('ms-tooltip-cont')
-					  .html(this.data)
+					  .php(this.data)
 					  .appendTo(this.tt)
 
 
@@ -4001,7 +4001,7 @@ MSSliderEvent.DESTROY				= 'ms_destroy';
 		}
  
 		if ( this.link ) {
-			this.link.addClass('ms-slide-link').html('').click(function(e){
+			this.link.addClass('ms-slide-link').php('').click(function(e){
 				if ( that.linkdis ) {
 					e.preventDefault();
 				}
@@ -5335,7 +5335,7 @@ MSSliderEvent.DESTROY				= 'ms_destroy';
 		}
 
 		//create a copy from slider markup, it will be used in destroy method.
-		this.setupMarkup = this.$element.html();
+		this.setupMarkup = this.$element.php();
 
 		if( this.$element.length === 0 ){
 			//if(console) console.log('Master Slider Error: #'+id+' not found.');
@@ -5432,7 +5432,7 @@ MSSliderEvent.DESTROY				= 'ms_destroy';
 		if(this.$loading) this.$loading.remove();
 
 		if ( insertMarkup ) {
-			this.$element.html(this.setupMarkup).css('visibility' , 'hidden');
+			this.$element.php(this.setupMarkup).css('visibility' , 'hidden');
 		} else {	 
 			this.$element.remove();
 		}
@@ -8526,7 +8526,7 @@ MSViewEvents.CHANGE_END	     	= 'slideChangeEnd';
 		if(!this.errEle)
 			this.errEle = $('<div style="font-family:Arial; color:red; font-size:12px; position:absolute; top:10px; left:10px"></div>').appendTo(this.slider.$loading);
 		
-		this.errEle.html(msg);
+		this.errEle.php(msg);
 	};
 	
 	p._initSlider = function(){
@@ -8654,7 +8654,7 @@ MSViewEvents.CHANGE_END	     	= 'slideChangeEnd';
 		if(!this.errEle)
 			this.errEle = $('<div style="font-family:Arial; color:red; font-size:12px; position:absolute; top:10px; left:10px"></div>').appendTo(this.slider.$loading);
 
-		this.errEle.html(msg);
+		this.errEle.php(msg);
 	};
 
 	p._initSlider = function(){

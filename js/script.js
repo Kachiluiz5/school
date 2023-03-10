@@ -257,7 +257,7 @@
 				var countDate = Self.data('countdown-time'); // getting date
 
 				Self.countdown(countDate, function(event) {
-		     		$(this).html('<h2>'+ event.strftime('%D : %H : %M : %S') +'</h2>');
+		     		$(this).php('<h2>'+ event.strftime('%D : %H : %M : %S') +'</h2>');
 		   		});
 			});
 
@@ -271,7 +271,7 @@
 				var countDate = Self.data('countdown-time'); // getting date
 
 				Self.countdown(countDate, function(event) {
-		     		$(this).html('<li> <div class="box"> <span class="days">'+ event.strftime('%D') +'</span> <span class="timeRef">days</span> </div> </li> <li> <div class="box"> <span class="hours">'+ event.strftime('%H') +'</span> <span class="timeRef">hours</span> </div> </li> <li> <div class="box"> <span class="minutes">'+ event.strftime('%M') +'</span> <span class="timeRef">minutes</span> </div> </li> <li> <div class="box"> <span class="seconds">'+ event.strftime('%S') +'</span> <span class="timeRef">seconds</span> </div> </li>');
+		     		$(this).php('<li> <div class="box"> <span class="days">'+ event.strftime('%D') +'</span> <span class="timeRef">days</span> </div> </li> <li> <div class="box"> <span class="hours">'+ event.strftime('%H') +'</span> <span class="timeRef">hours</span> </div> </li> <li> <div class="box"> <span class="minutes">'+ event.strftime('%M') +'</span> <span class="timeRef">minutes</span> </div> </li> <li> <div class="box"> <span class="seconds">'+ event.strftime('%S') +'</span> <span class="timeRef">seconds</span> </div> </li>');
 		   		});
 			});
 

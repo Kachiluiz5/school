@@ -5309,7 +5309,7 @@ body.popup-visible{
   -ms-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
-  background: #ffffff url(../img/resources/icon-dropdown.html) 97% center no-repeat;
+  background: #ffffff url(../img/resources/icon-dropdown.php) 97% center no-repeat;
   cursor: pointer;
 }
 .cart-section .thm-btn.update-cart {
@@ -5548,7 +5548,7 @@ body.popup-visible{
     -ms-appearance:none;
     -moz-appearance:none;
     -o-appearance:none;
-    background:#ffffff url(../images/icons/icon-select.html) right center no-repeat;
+    background:#ffffff url(../images/icons/icon-select.php) right center no-repeat;
     cursor:pointer;
 }
 
